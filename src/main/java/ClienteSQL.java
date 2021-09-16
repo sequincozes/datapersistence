@@ -52,10 +52,10 @@ public class ClienteSQL {
     }
 
     private void exibeInformacoes(Usuario usuario) {
-        System.out.println("Usuário: "+usuario.getNome());
-        System.out.println("Telefone: "+usuario.getTelefone());
-        System.out.println("CPF: "+usuario.getCpf());
-        System.out.println("E-mail: "+usuario.getEmail());
+        System.out.println("Usuário: " + usuario.getNome());
+        System.out.println("Telefone: " + usuario.getTelefone());
+        System.out.println("CPF: " + usuario.getCpf());
+        System.out.println("E-mail: " + usuario.getEmail());
     }
 
     public static Connection getConnection() {
